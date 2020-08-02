@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #ffe2d0;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: #D96D39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.logo {
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+
+}
+
+.basket {
+    font-size: 15px;
+    margin-right: 50px;
+    width: 150px;
+    height: 100%;
+}
+
+main {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #985328;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    color: #985328;
+}
+.cardimg{
+    display: flex;
+    justify-content: center;
+}
+.cardimg p{
+    font-size: 50px;
+    margin: auto;
+    color: #985328;
+    transition: color .4s; 
+    user-select: none;
+}
+.cardimg p:hover{
+    cursor: default;
+    color: #d97739;
+    transition: color .4s;
+}
+.cardimg p:active {
+    color: #fff;
+    transition: color .2s;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+}
+
+span {
+    text-align: center;
+}
+.btnclear{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    line-height: 2;
+    background-color: #985328;
+    color: #fff;
+    transition: background-color .5s; 
+}
+.btnclear:hover {
+    background-color: #fff;
+    color: #D96D39;
+    transition: background-color .5s;
+}
+.btnclear:active {
+    background-color: #985328;
+}
+
+.card button {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    line-height: 2;
+    background-color: #985328;
+    color: #fff;
+    transition: background-color .3s; 
+}
+.card button:hover {
+    background-color: #d97739;
+    transition: background-color .3s;
+}
+.card button:active {
+    background-color: #985328;
+}
